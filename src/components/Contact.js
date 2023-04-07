@@ -14,7 +14,7 @@ const Contact = () => {
       </span>
       <span className="contact__icons">
         Github
-        <span class="material-symbols-outlined">hub</span>
+        <span className="material-symbols-outlined">hub</span>
       </span>
     </div>
   );

@@ -1,37 +1,45 @@
-import React, { useState } from "react";
-import styled from "styled-components";
-import PresentAnimation from "./PresentAnimation";
-import { useInterval } from "react-use";
+import React from "react";
+import Header from "./Header";
 
 const Presentation = () => {
-  const [rain, setRain] = useState([{ key: 0, emoji: "i", offset: 0 }]);
-  /* useInterval(() => {
-    const offset = Math.floor(Math.random() * 1000);
-    const key = offset + Math.floor(Math.random() * 100000);
-    const emoji = "i";
-    rain.push({ offset, key, emoji });
-    setRain([...rain]);
-  }, 500);
-  */
-
   return (
-    // <Prueba>
-    //   {rain.map(({ key, emoji }) => {
-    //     return <PresentAnimation key={key}>{emoji}</PresentAnimation>;
-    //   })}
-    // </Prueba>
+    <>
+      <div className="panelHero">
+        <video muted autoPlay loop className="video1">
+          <source src="/videos/Scripting.mp4" />
+          Tu navegador no soporta HTML5
+        </video>
+        <Header />
+        <section className="presentation">
+          <article className="presentation__container">
+            <p>Hola, soy</p>
+            <h1 className="gradient-text">Jose Cardozo</h1>
+            <p>Front-End Junior Developer</p>
 
-    <section className="presentation">
-      <PresentAnimation />
-      <article>
-        <span className="material-symbols-outlined">mail</span>
-        <span className="material-symbols-outlined">terminal</span>
-        <span className="material-symbols-outlined">diversity_3</span>
-      </article>
-    </section>
+            <div className="buttons">
+              <button className="button">
+                <span className="material-symbols-outlined icon">download</span>
+                Curriculum
+              </button>
+              <button className="button">
+                <span className="fa fa-telegram icon"></span> Contactame
+              </button>
+            </div>
+          </article>
+          <article className="containerIcons">
+            <ul>
+              <li className="icons">
+                <i className="bi bi-github"></i>
+                <i className="bi bi-linkedin"></i>
+                <i className="bi bi-telegram"></i>
+              </li>
+              <div className="palito"></div>
+            </ul>
+          </article>
+        </section>
+      </div>
+    </>
   );
 };
 
 export default Presentation;
-
-const Prueba = "styled.div";
