@@ -5,17 +5,19 @@ const About = () => {
     <div className="about">
       <img
         className="about__img"
-        src="/images/FotoPerfil.png"
+        src="/images/FotoPerfil.jpg"
         alt="Foto de perfil"
       />
       <div className="about__info">
         <h3 className="about__tittle"> Quien soy?</h3>
         <p className="abaout__text">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut eius in
-          incidunt ipsum rerum consequatur voluptate, eaque qui tempora esse
-          fuga asperiores nostrum ipsa libero vel commodi doloribus. Ducimus,
-          in. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Cupiditate qui expedita error delectus architecto sed facilis
+          Soy técnico superior en electrónica, especialista en el manejo de
+          tecnología FTTH. Hace tiempo que estoy interesado en la programación y
+          hoy en día, he decidido cambiar completamente mi rumbo profesional
+          dedicándome al Desarrollo Front-end. Constantemente adquiero
+          conocimientos que me ayudan a crecer en este mundo de la programación
+          web, aprendiendo tecnologías como React, Firebase, Bootstrap,
+          MaterialUI, Sass, HTML, CSS y Javascript.
         </p>
       </div>
     </div>
