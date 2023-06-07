@@ -3,9 +3,15 @@ import React from "react";
 const Navbar = () => {
   return (
     <ul className="navbar">
-      <li>Quien Soy</li>
-      <li>Proyectos</li>
-      <li>Contactame</li>
+      <a href="#about">
+        <li>Quien Soy</li>
+      </a>
+      <a href="#proyects">
+        <li>Proyectos</li>
+      </a>
+      <a href="#contact">
+        <li>Contactame</li>
+      </a>
     </ul>
   );
 };
