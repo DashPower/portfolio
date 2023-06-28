@@ -12,7 +12,7 @@ const Presentation = () => {
       <section className="presentation">
         <article className="presentation__container">
           <p>Hola, soy</p>
-          <h1 className="gradient-text">Jose Cardozo</h1>
+          <h1 className="gradient-text">José Cardozo</h1>
           <p>Front-End Junior Developer</p>
 
           <div className="buttons">
@@ -22,12 +22,12 @@ const Presentation = () => {
             >
               <button className="button">
                 <span className="material-symbols-outlined icon">download</span>
-                Curriculum
+                Currículum
               </button>
             </a>
             <a href="https://wa.me/584246926618?">
               <button className="button">
-                <span className="fa fa-telegram icon"></span> Contactame
+                <i className=" bi-envelope"></i> Contáctame
               </button>
             </a>
           </div>

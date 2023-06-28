@@ -15,7 +15,7 @@ const Skills = () => {
         <img src="/icons/js.png" alt="JavaScript" />
         <img src="/icons/html-5.png" alt="Html" />
         <img src="/icons/css-3.png" alt="Css" />
-        <h2>Frameworks y librerias</h2>
+        <h2>Frameworks y librerías</h2>
         <img
           src="/icons/bootstrap.png"
           alt="Bootstrap"

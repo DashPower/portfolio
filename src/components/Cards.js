@@ -7,7 +7,7 @@ function Cards(props) {
         <Card.Img variant="top" src={props.img} className="cardImg" />
         <a href={props.address}>
           <div className="card_img_overlay--blur card_img_overlay ">
-            <h2>Visitanos</h2>
+            <h2>Visítanos</h2>
           </div>
         </a>
       </div>

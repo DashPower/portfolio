@@ -10,15 +10,16 @@ const Proyects = () => {
         <Cards
           img="/images/dozPage.png"
           Title="Digital Service Office"
-          Text="Pagina web informativa creada para empresa de servicio tecnico de
-              reaparacion de computadoras y equipos informaticos"
+          Text="Página web informativa, creada para empresa de servicio técnico de
+          reparación de computadoras y equipos informáticos
+"
           address="https://digitalserviceoffice.000webhostapp.com/"
           github="https://github.com/DashPower/Proyecto_final"
         />
         <Cards
           img="/images/dotaStorePage.png"
           Title="DotaStore"
-          Text="DotaStore es un comercio digital que ofrece una amplia variedad productos relacionados al juego MOBA Defense of The Ancient mejor conocido como DOTA."
+          Text="DotaStore, es un comercio digital que ofrece una amplia variedad  de productos relacionados al juego del género MOBA: Defense of The Ancient, mejor conocido como DOTA 2."
           address="https://ecommerce-react-lovat.vercel.app/"
           github="https://github.com/DashPower/ecommerce-react"
         />
