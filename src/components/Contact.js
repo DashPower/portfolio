@@ -4,9 +4,7 @@ const Contact = () => {
   return (
     <div>
       <div className="content">
-        <h1 className="logo">
-          <span>Con</span>táctame
-        </h1>
+        <h1 className="logo">Contáctame</h1>
         <div className="contact-wrapper">
           <div className="contact-form">
             <form action="">
@@ -39,13 +37,13 @@ const Contact = () => {
             <h4>Información Adicional</h4>
             <ul>
               <li>
-                <i class=" bi-geo-alt"></i> Maracaibo Edo. Zulia, Venezuela
+                <i className=" bi-geo-alt"></i> Maracaibo Edo. Zulia, Venezuela
               </li>
               <li>
-                <i class=" bi-phone"></i>+58 4246926618
+                <i className=" bi-phone"></i>+58 4246926618
               </li>
               <li>
-                <i class=" bi-envelope"></i> cardoz.jg@gmail.com
+                <i className=" bi-envelope"></i> cardoz.jg@gmail.com
               </li>
             </ul>
             <p>

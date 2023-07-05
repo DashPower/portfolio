@@ -1,6 +1,8 @@
 import Card from "react-bootstrap/Card";
 
 function Cards(props) {
+  const tech = props.tech.split(",");
+
   return (
     <Card className="cardBots">
       <div className="card_div_img">
@@ -24,7 +26,13 @@ function Cards(props) {
           <li className="toolsbg">HTML</li>
           <li className="toolsbg">CSS</li>
           <li className="toolsbg">JavaScript</li>
-          <li className="toolsbg">Bootstrap</li>
+          {tech.map((e) => {
+            return (
+              <li className="toolsbg" key={tech.indexOf(e)}>
+                {e}
+              </li>
+            );
+          })}
         </ul>
       </Card.Body>
     </Card>

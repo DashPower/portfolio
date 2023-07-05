@@ -4,6 +4,7 @@ import Proyects from "./Proyects";
 import Contact from "./Contact";
 import Presentation from "./Presentation";
 import Skills from "./Skills";
+import Footer from "./Footer";
 
 const Main = () => {
   return (
@@ -13,6 +14,7 @@ const Main = () => {
       <Skills />
       <Proyects />
       <Contact />
+      <Footer />
     </div>
   );
 };

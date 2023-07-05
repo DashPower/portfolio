@@ -8,6 +8,7 @@
   font-family: "Alkatra";
   list-style: none;
   color: #e8eaed;
+  font-style: normal;
 }
 
 p {
@@ -108,6 +109,7 @@ a {
   text-align: center;
   width: 100%;
   padding: 1.5rem;
+  color: #0093e9;
 }
 
 .proyect {
@@ -167,7 +169,7 @@ a {
 
 .gradient-text {
   background-color: #f3ec78;
-  background-image: linear-gradient(60deg, #009fff, #ec2f4b, #654ea3, #ff4b2b);
+  background-image: linear-gradient(45deg, #f3ec78, #af4261);
   background-size: 800% 800%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -291,6 +293,7 @@ ul {
 }
 .tools {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 1.5rem;
@@ -299,9 +302,14 @@ ul {
   margin: 0;
 }
 .toolsbg {
-  background-color: #8b9397;
+  background-color: #0093e9;
   border-radius: 0.5rem;
   padding-inline: 0.5rem;
+  transition: 0.3s ease;
+}
+.toolsbg:hover {
+  background-color: #fff;
+  color: #0093e9;
 }
 .visit {
   display: flex;
@@ -382,9 +390,8 @@ ul {
 .logo {
   text-align: center;
   font-size: 3em;
-}
-.logo span {
   color: #0093e9;
+  margin: 1.5rem;
 }
 
 .contact-wrapper {
@@ -417,12 +424,12 @@ ul {
   border: none;
   background: none;
   outline: none;
-  border-bottom: 1px solid #d63031;
+  border-bottom: 1px solid #0093e9;
   color: #ffffff;
 }
 
 .contact-form form button {
-  background: #b70321;
+  background: #0093e9;
   color: #000000;
   border: 0;
   border-radius: 0.5rem;
@@ -432,7 +439,7 @@ ul {
 }
 .contact-form form button:hover,
 .contact-form form button:focus {
-  background: #d63031;
+  border: solid, #fff, 5px;
   color: #ffffff;
 }
 .contact-info {
@@ -465,4 +472,17 @@ ul {
     padding: 1em;
     text-align: left;
   }
+}
+
+.footer {
+  text-align: center;
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #222222;
+}
+.footer h1 {
+  font-size: 1rem;
+}
+.footer h1 > span {
+  font-weight: 600;
 }

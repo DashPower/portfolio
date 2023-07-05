@@ -1,6 +1,6 @@
 import React from "react";
 import Cards from "./Cards";
-
+/* al colocar proyectos nuevos con la tecnologia seguir la siguiente regla tech="tecnologia1,tecnologia2,tecnologia3"*/
 const Proyects = () => {
   return (
     <div className="proyects" id="proyects">
@@ -15,6 +15,7 @@ const Proyects = () => {
 "
           address="https://digitalserviceoffice.000webhostapp.com/"
           github="https://github.com/DashPower/Proyecto_final"
+          tech="Bootstrap,Sass"
         />
         <Cards
           img="/images/dotaStorePage.png"
@@ -22,14 +23,16 @@ const Proyects = () => {
           Text="DotaStore, es un comercio digital que ofrece una amplia variedad  de productos relacionados al juego del género MOBA: Defense of The Ancient, mejor conocido como DOTA 2."
           address="https://ecommerce-react-lovat.vercel.app/"
           github="https://github.com/DashPower/ecommerce-react"
+          tech="ReactJS,Bootstrap,Sass"
         />
+
         <Cards
           img="/images/E-medica.png"
           Title="E-Medica"
-          Text="E-Médica es una plataforma para el agendamiento y la realización de consultas médicas virtuales 🩺. Agiliza el proceso de búsqueda 🔍, agendamiento 🕮 y consulta 👨‍⚕️, pues permite encontrar profesionales de la salud según su especialidad ⚕️, eliminando la necesidad de desplazarse físicamente 🚗, cuando no es necesario, y permitiendo que los usuarios conozcan la agenda del especialista en tiempo real 📆.
-"
+          Text="E-Médica es una plataforma para el agendamiento y la realización de consultas médicas virtuales 🩺. Agiliza el proceso de búsqueda 🔍, agendamiento 🕮 y consulta 👨‍⚕️."
           address="https://dev.d2mgpjd3ipukhz.amplifyapp.com/"
           github="https://github.com/No-Country/NC-C11-31-E-Medica"
+          tech="ReactJS,NextJS,Bootstrap,Sass"
         />
       </div>
     </div>
