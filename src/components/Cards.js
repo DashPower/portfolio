@@ -15,25 +15,29 @@ function Cards(props) {
       </div>
 
       <Card.Body>
-        <Card.Title className="cardTittle">{props.Title}</Card.Title>
-        <Card.Text className="cardText">{props.Text}</Card.Text>
-        <div className="visit">
-          <a href={props.github}>
-            <i className="bi bi-github"></i>
-          </a>
+        <div>
+          <Card.Title className="cardTittle">{props.Title}</Card.Title>
+          <Card.Text className="cardText">{props.Text}</Card.Text>
         </div>
-        <ul className="tools">
-          <li className="toolsbg">HTML</li>
-          <li className="toolsbg">CSS</li>
-          <li className="toolsbg">JavaScript</li>
-          {tech.map((e) => {
-            return (
-              <li className="toolsbg" key={tech.indexOf(e)}>
-                {e}
-              </li>
-            );
-          })}
-        </ul>
+        <div>
+          <div className="visit">
+            <a href={props.github}>
+              <i className="bi bi-github"></i>
+            </a>
+          </div>
+          <h5 className="techText">Tecnologías Utilizadas:</h5>
+          <ul className="tools">
+            <li className="toolsbg">HTML</li>
+            <li className="toolsbg">CSS</li>
+            {tech.map((e) => {
+              return (
+                <li className="toolsbg" key={tech.indexOf(e)}>
+                  {e}
+                </li>
+              );
+            })}
+          </ul>
+        </div>
       </Card.Body>
     </Card>
   );

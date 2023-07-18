@@ -15,7 +15,7 @@ const Proyects = () => {
 "
           address="https://digitalserviceoffice.000webhostapp.com/"
           github="https://github.com/DashPower/Proyecto_final"
-          tech="Bootstrap,Sass"
+          tech="Javascript,Bootstrap,Sass"
         />
         <Cards
           img="/images/dotaStorePage.png"
@@ -23,16 +23,24 @@ const Proyects = () => {
           Text="DotaStore, es un comercio digital que ofrece una amplia variedad  de productos relacionados al juego del género MOBA: Defense of The Ancient, mejor conocido como DOTA 2."
           address="https://ecommerce-react-lovat.vercel.app/"
           github="https://github.com/DashPower/ecommerce-react"
-          tech="ReactJS,Bootstrap,Sass"
+          tech="Javascript,ReactJS,Bootstrap,Sass"
         />
 
         <Cards
           img="/images/E-medica.png"
           Title="E-Medica"
-          Text="E-Médica es una plataforma para el agendamiento y la realización de consultas médicas virtuales 🩺. Agiliza el proceso de búsqueda 🔍, agendamiento 🕮 y consulta 👨‍⚕️."
+          Text="E-Médica es una plataforma para el agendamiento y la realización de consultas médicas virtuales . Agiliza el proceso de búsqueda, agendamiento y consulta."
           address="https://dev.d2mgpjd3ipukhz.amplifyapp.com/"
           github="https://github.com/No-Country/NC-C11-31-E-Medica"
-          tech="ReactJS,NextJS,Bootstrap,Sass"
+          tech="Javascript,ReactJS,NextJS,Bootstrap,Sass"
+        />
+        <Cards
+          img="/images/HolasoyMaviPage.png"
+          Title="Hola soy Mavi"
+          Text="Portafolio web de un diseñador grafico, donde se muestra su experiencia, trabajos, habilidades y servicios ofrecidos."
+          address="https://maviavgs.000webhostapp.com/"
+          github="https://github.com/DanielVP26/SoyMavi"
+          tech=""
         />
       </div>
     </div>

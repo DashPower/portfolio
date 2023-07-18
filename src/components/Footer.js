@@ -3,10 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="footer">
-      <h1>
-        © Jose Cardozo | Front-End Developer |{" "}
-        <span>Aviso legal . Política de privacidad </span>
-      </h1>
+      <h1>© José Cardozo | Front-End Developer</h1>
     </div>
   );
 };

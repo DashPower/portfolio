@@ -13,7 +13,7 @@ const Presentation = () => {
         <article className="presentation__container">
           <p>Hola, soy</p>
           <h1 className="gradient-text">José Cardozo</h1>
-          <p>Front-End Junior Developer</p>
+          <p>Front-End Developer</p>
 
           <div className="buttons">
             <a href="CV-Jose-Cardozo.pdf" download>
@@ -43,7 +43,6 @@ const Presentation = () => {
                 <i className="bi bi-telegram"></i>
               </a>
             </li>
-            <div className="palito"></div>
           </ul>
         </article>
       </section>
