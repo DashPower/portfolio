@@ -8,15 +8,14 @@ const Proyects = () => {
 
       <div className="proyects__container">
         <Cards
-          img="/images/dozPage.png"
-          Title="Digital Service Office"
-          Text="Página web informativa, creada para empresa de servicio técnico de
-          reparación de computadoras y equipos informáticos
-"
-          address="https://digitalserviceoffice.000webhostapp.com/"
-          github="https://github.com/DashPower/Proyecto_final"
-          tech="Javascript,Bootstrap,Sass"
+          img="/images/cloudLab.png"
+          Title="CloudLab"
+          Text="Cloudlab es una plataforma para laboratorios clínicos que busquen agilizar la gestión de los resultados de los diferentes estudios y pacientes. Donde tendremos como usuario principal el laboratorio clinico."
+          address="https://cloudlab-s9-16.vercel.app/"
+          github="https://github.com/No-Country/s9-16-m-node-react"
+          tech="Javascript,NextJS,Redux,ReduxToolkit,TailwindCSS"
         />
+
         <Cards
           img="/images/dotaStorePage.png"
           Title="DotaStore"
@@ -41,6 +40,16 @@ const Proyects = () => {
           address="https://maviavgs.000webhostapp.com/"
           github="https://github.com/DanielVP26/SoyMavi"
           tech=""
+        />
+        <Cards
+          img="/images/dozPage.png"
+          Title="Digital Service Office"
+          Text="Página web informativa, creada para empresa de servicio técnico de
+          reparación de computadoras y equipos informáticos
+"
+          address="https://digitalserviceoffice.000webhostapp.com/"
+          github="https://github.com/DashPower/Proyecto_final"
+          tech="Javascript,Bootstrap,Sass"
         />
       </div>
     </div>

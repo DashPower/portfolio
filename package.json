@@ -9,6 +9,7 @@
     "animate.css": "^4.1.1",
     "bootstrap": "^5.2.3",
     "bootstrap-icons": "^1.10.4",
+    "notiflix": "^3.2.6",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.4",
     "react-dom": "^18.2.0",

@@ -1,6 +1,13 @@
 import React from "react";
-
+import { Notify } from "notiflix/build/notiflix-notify-aio";
 const Contact = () => {
+  function onClick(e) {
+    e.preventDefault();
+    Notify.success("Tus datos fueron enviados correctamente", {
+      background: "#0093e9",
+      fontSize: "24",
+    });
+  }
   return (
     <div>
       <div className="content" id="contact">
@@ -10,26 +17,28 @@ const Contact = () => {
             <form action="">
               <p>
                 <label>Nombre Completo</label>
-                <input type="text" name="fullname" />
+                <input type="text" name="fullname" required />
               </p>
               <p>
                 <label>Correo Electrónico</label>
-                <input type="email" name="email" />
+                <input type="email" name="email" required />
               </p>
               <p>
                 <label>Teléfono</label>
-                <input type="tel" name="phone" />
+                <input type="tel" name="phone" required />
               </p>
               <p>
                 <label>Asunto</label>
-                <input type="text" name="affair" />
+                <input type="text" name="affair" required />
               </p>
               <p className="block">
                 <label>Mensaje</label>
                 <textarea name="message" rows="3"></textarea>
               </p>
               <p className="block">
-                <button type="submit">Enviar</button>
+                <button type="submit" onClick={onClick}>
+                  Enviar
+                </button>
               </p>
             </form>
           </div>{" "}

@@ -225,7 +225,7 @@ ul {
   display: flex;
   font-size: 2rem !important;
   position: absolute;
-  bottom: 1rem;
+  bottom: 5rem;
 }
 .containerIcons > ul {
   display: flex;
