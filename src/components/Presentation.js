@@ -41,7 +41,7 @@ const Presentation = () => {
               <a href="https://www.linkedin.com/in/cardozjg/">
                 <i className="bi bi-linkedin"></i>
               </a>
-              <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSDbtmMJLtMLsZMvsQbRPlbqKZLblpqgPQnxrxJFDlHQTGHTVvqcQWztWVMtcDfPwWsCJPdJ">
+              <a href="mailto:cardozodev@gmail.com?subject=Me interesa tu trabajo">
                 <i className="bi bi-telegram"></i>
               </a>
             </li>
