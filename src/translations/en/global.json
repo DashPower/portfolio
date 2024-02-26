@@ -1,0 +1,38 @@
+{
+  "navbar": {
+    "t1": "About me",
+    "t2": "Projects",
+    "t3": "Contact me"
+  },
+  "presentation": {
+    "t1": "Hello, I am",
+    "t2": "Front-End Developer"
+  },
+  "about": {
+    "t1": "I am an electronic technician specialized in FTTH technology. I have been interested in programming for a long time and today I have decided to completely change my career path by dedicating myself to front-end development.",
+    "t2": "I am constantly acquiring knowledge that helps me grow in this world of web programming, learning technologies such as React, Firebase, Bootstrap, NextJS, Sass, HTML, CSS and Javascript."
+  },
+  "skills": {
+    "t1": "Languages",
+    "t2": "Frameworks and libraries",
+    "t3": "Tools"
+  },
+  "project": {
+    "t1": "Technologies Used",
+    "tp1": "Cloudlab is a platform for clinical laboratories seeking to streamline the management of the results of different studies and patients. Where we will have as main user the clinical laboratory.",
+    "tp2": "EcoSubasta, is a digital commerce that offers a wide variety of used products with the purpose of giving them a new life by selling them to people who will use them again.",
+    "tp3": "E-Médica is a platform for scheduling and conducting virtual medical consultations. It speeds up the search, scheduling and consultation process.",
+    "tp4": "Web portfolio of a graphic designer, showing his experience, work, skills and services offered.",
+    "tp5": "Informative website of a company dedicated to the creation of innovative alternatives and personalized advice on technology."
+  },
+  "contact": {
+    "t1": "Full Name",
+    "t2": "E-mail address",
+    "t3": "Phone",
+    "t4": "Subject",
+    "t5": "Message",
+    "t6": "Send",
+    "t7": "Additional Information",
+    "t8": "No man can cross the same river twice, because neither the man nor the water will be the same."
+  }
+}

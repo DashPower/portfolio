@@ -1,0 +1,38 @@
+{
+  "navbar": {
+    "t1": "Sobre mim",
+    "t2": "Projectos",
+    "t3": "Contactar"
+  },
+  "presentation": {
+    "t1": "Olá, eu sou",
+    "t2": "Desenvolvedor Front-end"
+  },
+  "about": {
+    "t1": "Sou técnico em eletrônica, especializado em tecnologia FTTH. Há muito tempo me interesso por programação e, hoje, decidi mudar completamente minha trajetória profissional, dedicando-me ao desenvolvimento front-end.",
+    "t2": "Estou constantemente adquirindo conhecimentos que me ajudam a crescer no mundo da programação da Web, aprendendo tecnologias como React, Firebase, Bootstrap, NextJS, Sass, HTML, CSS e Javascript."
+  },
+  "skills": {
+    "t1": "Linguagens",
+    "t2": "Estruturas e bibliotecas",
+    "t3": "Ferramentas"
+  },
+  "project": {
+    "t1": "Tecnologias utilizadas",
+    "tp1": "O Cloudlab é uma plataforma para laboratórios clínicos que buscam agilizar o gerenciamento dos resultados de diferentes estudos e pacientes. Onde teremos como principal usuário o laboratório clínico.",
+    "tp2": "A EcoSubasta é um comércio digital que oferece uma ampla variedade de produtos usados com o objetivo de dar-lhes uma nova vida, vendendo-os a pessoas que os usarão novamente.",
+    "tp3": "E-Médica é uma plataforma para agendamento e realização de consultas médicas virtuais. Ela agiliza o processo de busca, agendamento e consulta.",
+    "tp4": "Portfólio na Web de um designer gráfico, mostrando sua experiência, trabalho, habilidades e serviços oferecidos.",
+    "tp5": "Site informativo de uma empresa dedicada à criação de alternativas inovadoras e consultoria personalizada sobre tecnologia."
+  },
+  "contact": {
+    "t1": "Nome completo",
+    "t2": "Endereço eletrônico",
+    "t3": "Telefone",
+    "t4": "Assunto",
+    "t5": "Mensagem",
+    "t6": "Enviar",
+    "t7": "Informações adicionais",
+    "t8": "Nenhum homem pode atravessar o mesmo rio duas vezes, porque nem o homem nem a água serão os mesmos."
+  }
+}

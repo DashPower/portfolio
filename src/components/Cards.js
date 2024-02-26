@@ -1,6 +1,9 @@
 import Card from "react-bootstrap/Card";
+import { useTranslation } from "react-i18next";
 
 function Cards(props) {
+  const [t] = useTranslation("global");
+
   const tech = props.tech.split(",");
 
   return (
@@ -25,7 +28,7 @@ function Cards(props) {
               <i className="bi bi-github"></i>
             </a>
           </div>
-          <h5 className="techText">Tecnologías Utilizadas:</h5>
+          <h5 className="techText">{t("project.t1")}:</h5>
           <ul className="tools">
             <li className="toolsbg">HTML</li>
             <li className="toolsbg">CSS</li>

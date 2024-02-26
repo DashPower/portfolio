@@ -1,0 +1,40 @@
+{
+  "navbar": {
+    "t1": "Sobre mí",
+    "t2": "Proyectos",
+    "t3": "Contáctame"
+  },
+
+  "presentation": {
+    "t1": "Hola, soy",
+    "t2": "Desarrollador Front-End"
+  },
+
+  "about": {
+    "t1": "Soy técnico superior en electrónica, especialista en el manejo de tecnología FTTH. Hace tiempo que estoy interesado en la programación y hoy en día, he decidido cambiar completamente mi rumbo profesional dedicándome al Desarrollo Front-end.",
+    "t2": "Constantemente adquiero conocimientos que me ayudan a crecer en este mundo de la programación web, aprendiendo tecnologías como React, Firebase, Bootstrap, NextJS, Sass, HTML, CSS y Javascript."
+  },
+  "skills": {
+    "t1": "Lenguajes",
+    "t2": "Frameworks y librerías",
+    "t3": "Herramientas"
+  },
+  "project": {
+    "t1": "Tecnologías Utilizadas",
+    "tp1": "Cloudlab es una plataforma para laboratorios clínicos que busquen agilizar la gestión de los resultados de los diferentes estudios y pacientes. Donde tendremos como usuario principal el laboratorio clinico.",
+    "tp2": "EcoSubasta, es un comercio digital que ofrece una amplia variedad  de productos usados con el proposito de darles una nueva vida vendiendolo a personas que le daran un uso nuevamente",
+    "tp3": "E-Médica es una plataforma para el agendamiento y la realización de consultas médicas virtuales . Agiliza el proceso de búsqueda, agendamiento y consulta.",
+    "tp4": "Portafolio web de un diseñador grafico, donde se muestra su experiencia, trabajos, habilidades y servicios ofrecidos.",
+    "tp5": "Página web informativa de una empresa  dedicada a la creación de alternativas innovadoras y asesoramiento personalizado en materia de tecnología."
+  },
+  "contact": {
+    "t1": "Nombre Completo",
+    "t2": "Correo Electrónico",
+    "t3": "Teléfono",
+    "t4": "Asunto",
+    "t5": "Mensaje",
+    "t6": "Enviar",
+    "t7": "Información Adicional",
+    "t8": "Ningún hombre puede cruzar el mismo río dos veces, porque ni el hombre ni el agua serán los mismos."
+  }
+}

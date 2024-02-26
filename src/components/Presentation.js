@@ -1,7 +1,9 @@
 import React from "react";
 import Header from "./Header";
-
+import { useTranslation } from "react-i18next";
 const Presentation = () => {
+  const [t, { language }] = useTranslation("global");
+  console.log(language);
   return (
     <div className="panelHero">
       <video muted autoPlay loop className="video1">
@@ -11,21 +13,21 @@ const Presentation = () => {
       <Header />
       <section className="presentation">
         <article className="presentation__container">
-          <p>Hola, soy</p>
+          <p>{t("presentation.t1")}</p>
           <h1 className="gradient-text">José Cardozo</h1>
-          <p>Front-End Developer</p>
+          <p>{t("presentation.t2")}</p>
 
           <div className="buttons">
-            <a href="CV-Jose-Cardozo.pdf" download>
+            <a href={`CV-JoseCardozo-${language}.pdf`} download>
               <button className="button">
                 <span className="material-symbols-outlined icon">download</span>
-                Currículum
+                Curriculum
               </button>
             </a>
 
             <a href="https://wa.me/584246926618?">
               <button className="button">
-                <i className=" bi-envelope"></i> Contáctame
+                <i className=" bi-envelope"></i> {t("navbar.t3")}
               </button>
             </a>
           </div>

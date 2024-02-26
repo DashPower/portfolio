@@ -584,3 +584,24 @@ ul {
     margin: 1rem;
   }
 }
+
+.countrys {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  cursor: pointer;
+  margin: 0;
+  margin-left: 10px;
+  padding: 1rem;
+}
+.countrys li {
+  transition: ease 0.5s;
+}
+
+.countrys li > img {
+  height: 40px;
+}
+
+.countrys li > img:hover {
+  transform: scale(1.1);
+}
