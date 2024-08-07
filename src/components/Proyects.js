@@ -38,12 +38,18 @@ const Proyects = () => {
           tech="Javascript,ReactJS,NextJS,Bootstrap,Sass"
         />
         <Cards
-          img="/images/HolasoyMaviPage.png"
-          Title="Hola soy Mavi"
+          img="/images/salonGarden.PNG"
+          Title="Salon Garden"
           Text={t("project.tp4")}
-          address="https://maviavgs.000webhostapp.com/"
-          github="https://github.com/DanielVP26/SoyMavi"
-          tech=""
+          address="https://salongarden.cl/"
+          tech="Wordpress,Elementor,Astra"
+        />
+        <Cards
+          img="/images/mugitech.PNG"
+          Title="Mugitech Solutions"
+          Text={t("project.tp6")}
+          address="https://mugitechsolutions.com/"
+          tech="Wordpress,Elementor,Astra,WeGlot"
         />
         <Cards
           img="/images/LatinTrade502.png"

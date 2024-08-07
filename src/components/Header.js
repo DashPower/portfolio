@@ -55,7 +55,7 @@ function BasicExample() {
                     }}
                   />
                 </li>
-                <li>
+                {/* <li>
                   <img
                     src="/images/pt.png"
                     alt="pt"
@@ -63,7 +63,7 @@ function BasicExample() {
                       i18n.changeLanguage("pt");
                     }}
                   />
-                </li>
+                </li> */}
               </ul>
             </div>
           </Nav>

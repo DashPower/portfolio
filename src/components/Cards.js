@@ -23,11 +23,13 @@ function Cards(props) {
           <Card.Text className="cardText">{props.Text}</Card.Text>
         </div>
         <div>
-          <div className="visit">
+          {props.github &&<div className="visit">
+            
             <a href={props.github}>
               <i className="bi bi-github"></i>
             </a>
-          </div>
+          </div> }
+          
           <h5 className="techText">{t("project.t1")}:</h5>
           <ul className="tools">
             <li className="toolsbg">HTML</li>
