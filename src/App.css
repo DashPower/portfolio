@@ -377,6 +377,10 @@ ul {
   padding: 1.5em;
 }
 
+.techText{
+  padding-top: 20px;
+}
+
 .logoImg {
   height: 5rem;
 }
